@@ -1,0 +1,10 @@
+/Users/mbp/Documents/Dotnet/AspNetCoreChatRoom/bin/Debug/netcoreapp2.0/AspNetCoreChatRoom.deps.json
+/Users/mbp/Documents/Dotnet/AspNetCoreChatRoom/bin/Debug/netcoreapp2.0/AspNetCoreChatRoom.runtimeconfig.json
+/Users/mbp/Documents/Dotnet/AspNetCoreChatRoom/bin/Debug/netcoreapp2.0/AspNetCoreChatRoom.runtimeconfig.dev.json
+/Users/mbp/Documents/Dotnet/AspNetCoreChatRoom/bin/Debug/netcoreapp2.0/AspNetCoreChatRoom.dll
+/Users/mbp/Documents/Dotnet/AspNetCoreChatRoom/bin/Debug/netcoreapp2.0/AspNetCoreChatRoom.pdb
+/Users/mbp/Documents/Dotnet/AspNetCoreChatRoom/obj/Debug/netcoreapp2.0/AspNetCoreChatRoom.csproj.CoreCompileInputs.cache
+/Users/mbp/Documents/Dotnet/AspNetCoreChatRoom/obj/Debug/netcoreapp2.0/AspNetCoreChatRoom.AssemblyInfoInputs.cache
+/Users/mbp/Documents/Dotnet/AspNetCoreChatRoom/obj/Debug/netcoreapp2.0/AspNetCoreChatRoom.AssemblyInfo.cs
+/Users/mbp/Documents/Dotnet/AspNetCoreChatRoom/obj/Debug/netcoreapp2.0/AspNetCoreChatRoom.dll
+/Users/mbp/Documents/Dotnet/AspNetCoreChatRoom/obj/Debug/netcoreapp2.0/AspNetCoreChatRoom.pdb
