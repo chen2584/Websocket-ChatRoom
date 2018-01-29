@@ -77,6 +77,7 @@ public class ChatWebSocketMiddleware
             await currentSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Closing", ct);
         }
         catch(OperationCanceledException) { }
+        catch(WebSocketException) { }
 
         currentSocket.Dispose();
     }
@@ -118,6 +119,7 @@ public class ChatWebSocketMiddleware
                 }
             }
             catch(OperationCanceledException) { }
+            catch(WebSocketException ex) { Console.WriteLine(ex.WebSocketErrorCode); }
         }
         return null;
     }
