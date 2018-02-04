@@ -79,6 +79,7 @@ public class ChatWebSocketMiddleware
         catch(OperationCanceledException) { }
         catch(WebSocketException) { }
 
+        Console.WriteLine("Closing websocket user");
         currentSocket.Dispose();
     }
  
@@ -86,12 +87,13 @@ public class ChatWebSocketMiddleware
     {
         var buffer = Encoding.UTF8.GetBytes(data);
         var segment = new ArraySegment<byte>(buffer);
+
         return socket.SendAsync(segment, WebSocketMessageType.Text, true, ct);
     }
  
     private static async Task<string> ReceiveStringAsync(WebSocket socket, CancellationToken ct = default(CancellationToken))
     {
-        var buffer = new ArraySegment<byte>(new byte[8192]);
+        var buffer = new ArraySegment<byte>(new byte[4096]);
         using (var ms = new MemoryStream())
         {
             try
